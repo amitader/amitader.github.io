@@ -99,7 +99,7 @@
 
 /* Mobile Styles - This section creates the single, stacked column layout you want */
 @media (max-width: 768px) {
-  .experience-item {
+  .entries-item {
     /* Change to a flexbox layout to stack items vertically */
     display: flex;
     flex-direction: column;
