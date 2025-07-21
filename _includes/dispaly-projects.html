@@ -1,0 +1,24 @@
+<div class="projects-grid">
+    {% assign items_to_display = site.data.projects %}
+    {% if include.limit_count and include.limit_count != blank %}
+        {% assign items_to_display = site.data.projects | slice: 0, include.limit_count %}
+    {% endif %}
+    {% for project in items_to_display limit: include.limit_count %}
+        {% if project.github %}
+        <a href="{{ project.github }}" target="_blank" class="project-link">
+        {% endif %}
+        <div class="project-card">
+        <div class="transparent-border">
+            <img src="{{ project.image }}" alt="{{ project.title }} logo" class="project-image">
+        </div>
+        <div class="overlay">
+            <h3>{{ project.title }}</h3>
+            <p class="role">{{ project.role }}</p>
+            <p class="description">{{ project.description }}</p>
+        </div>
+        </div>
+        {% if project.github %}
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>

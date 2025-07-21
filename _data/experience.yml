@@ -1,0 +1,15 @@
+-
+  dates: "Aug 2022 - Apr 2025"
+  title: "Threat detection Engineer"
+  company: "Israeli Military Intelligence"
+  description: " I designed and implemented sophisticated detection strategies and led security research efforts to defend against advanced threats. My work enhanced the overall defensive posture through continuous threat hunting and data-driven automation."
+  skills:
+    - { name: "Python", link: "https://www.python.org/" }
+    - { name: "Splunk", link: "https://www.splunk.com/" }
+    - { name: "Splunk SOAR", link: "https://www.splunk.com/en_us/products/splunk-security-orchestration-and-automation.html" }
+    - { name: "PowerShell", link: "https://learn.microsoft.com/en-us/powershell/" }
+    - { name: "OSQuery SQL", link: "https://www.osquery.io/" }
+    - { name: "Linux", link: "https://en.wikipedia.org/wiki/Linux" }
+    - { name: "Wireshark", link: "https://www.wireshark.org/" }
+    # - { name: "", link: "" }
+    # - { name: "", link: "" }

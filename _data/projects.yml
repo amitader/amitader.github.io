@@ -1,0 +1,20 @@
+-
+  title: "Maze Generator and Solver"
+  role: "Lead Developer"
+  description: "A tool that generates and solves mazes using recursive algorithms, with a visual interface built using Tkinter"
+  image: "/images/projects/maze.png"
+  github: "https://github.com/amitader/mase_generator"
+
+-
+  title: "Gator RSS"
+  role: "Lead Developer"
+  description: "A multi-player command line tool for aggregating RSS feeds and viewing the posts"
+  image: "/images/projects/alligator.png"
+  github: "https://github.com/amitader/Gator-RSS"
+
+-
+  title: "Home Server"
+  role: "Lead Developer"
+  description: "Server running on an old PC"
+  image: "/images/projects/server.png"
+  github: "https://github.com/amitader/Home-Server/blob/main/README.md"

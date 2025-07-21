@@ -1,0 +1,50 @@
+<section class="entries-section">
+  {% for item in include.items %}
+  <div class="entries-item">
+    <div class="item-dates">{{ item.dates }}</div>
+    <div class="item-content">
+      <h3 class="item-title">{{ item.title }}</h3>
+      <div class="item-company">
+        <span>
+          {{ item.company }}
+          {% if item.location %}
+          , {{ item.location }}
+          {% endif %}
+        </span>
+        {% if item.link %}
+          <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer" aria-label="External link to {{ item.company}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        {% endif %}
+        {% if item.pdf_link %}
+          <a href="{{ item.pdf_link }}" aria-label="View {{ item.company}} report">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        {% endif %}
+      </div>
+      
+      {% if item.description %}
+      <p class="item-description">{{ item.description }}</p>
+      {% endif %}
+
+      {% if item.notes %}
+      <ul class="item-notes">
+        {% for note in item.notes %}
+        <li>{{ note }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if item.skills %}
+      <div class="item-skills">
+        {% for skill in item.skills %}
+        <a href="{{ skill.link }}" class="skill-tag" {% if skill.link contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          {{ skill.name }}
+        </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
