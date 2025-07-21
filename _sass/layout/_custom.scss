@@ -1,7 +1,7 @@
-/* Custom styles for your site */
-
-/* Fix for icon vertical alignment in the sidebar */
-.author__urls .author__desktop {
-  display: flex !important;
-  align-items: center !important;
+/* Final fix for the location icon */
+.author__urls .fa-location-dot {
+  display: inline-block;
+  height: 1.5em;
+  line-height: 1.5em;
+  vertical-align: middle;
 }
