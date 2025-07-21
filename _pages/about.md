@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "👋🏼 Hello there, I’m Amit!"
+title: "Amit Adler"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
