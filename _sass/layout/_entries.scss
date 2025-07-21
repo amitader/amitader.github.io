@@ -97,3 +97,15 @@
   margin-left: 6px;
   color: #a0a0a0;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .entries-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  
+  .item-dates {
+    padding-top: 0;
+  }
+}
