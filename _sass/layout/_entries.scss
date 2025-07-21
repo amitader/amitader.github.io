@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--global-border-color);
   padding-bottom: 10px;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .item-dates {
-  color: #a0a0a0;
+  color: var(--global-text-color-light);
   font-size: 0.9rem;
   letter-spacing: 0.5px;
   padding-top: 5px;
@@ -47,7 +47,7 @@
 
 .item-company {
   font-size: 1rem;
-  color: #a0a0a0;
+  color: var(--global-text-color-light);
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -55,10 +55,9 @@
 
 .item-description,
 .item-notes {
-  color: #c0c0c0;
+  color: var(--global-text-color);
   font-size: 0.95rem;
-  margin: 0 0 15px 0;
-  padding: 0;
+  margin: 0;
 }
 
 .item-notes {
@@ -98,14 +97,16 @@
   color: #a0a0a0;
 }
 
-/* Mobile Styles */
 @media (max-width: 768px) {
-  .entries-item {
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .experience-item {
+    /* Change to a flexbox layout to stack items vertically */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
   
   .item-dates {
     padding-top: 0;
+    margin-bottom: 5px;
   }
 }
