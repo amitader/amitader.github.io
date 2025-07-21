@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Amit Adler"
-excerpt: "About me"
+excerpt: "Amit adler's website"
 author_profile: true
 redirect_from: 
   - /about/
