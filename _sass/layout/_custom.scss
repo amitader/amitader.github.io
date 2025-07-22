@@ -1,0 +1,24 @@
+// In _sass/layout/_custom.scss
+
+// Apply flexbox to the social links for robust alignment
+.author__urls a {
+  display: flex;           // Make the link a flex container
+  align-items: center;     // Vertically center the icon and text within the link
+  padding: 8px 15px;       // Increase padding around each link for more breathing room
+  box-sizing: border-box;  // Ensure padding is included in the element's total width/height
+}
+
+// Add specific spacing for the Font Awesome icons within those links
+.author__urls a .fa,  /* Targets Font Awesome 4 icons */
+.author__urls a .fab, /* Targets Font Awesome 5 Brand icons */
+.author__urls a .fas, /* Targets Font Awesome 5 Solid icons */
+.author__urls a .far, /* Targets Font Awesome 5 Regular icons */
+.author__urls a .fal, /* Targets Font Awesome 5 Light icons (if using Pro) */
+.author__urls a .fad  /* Targets Font Awesome 5 Duotone icons (if using Pro) */ {
+  margin-right: 10px; // Space between the icon and the text
+}
+
+// You might also consider adjusting the overall sidebar width if it's too narrow for content.
+// This typically involves modifying variables in your theme's _variables.scss or adjusting grid settings.
+// For example, if you find that $sidebar-link-max-width is too small at $x-large breakpoint,
+// you'd need to locate where that variable is defined and increase its value.
