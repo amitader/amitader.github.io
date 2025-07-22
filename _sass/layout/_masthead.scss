@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: $background;
   height: fit-content;
   top: 0;
   width: 100%;
@@ -20,7 +20,7 @@
     position: absolute;
     bottom: 0;
     height: 1px;
-    background: $background;
+    background: var(--global-border-color);
     width: 100%;
   }
 
