@@ -115,9 +115,7 @@
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}"> 
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-{% if page.date %}
-  <meta property="og:type" content="article">
-{% endif %}
+<meta property="og:type" content="{% if page.layout == 'post' or page.layout == 'collection' or page.date %}article{% else %}website{% endif %}">
 {% if page.excerpt %}
   <meta property="og:description" name="description" content="{{ seo_description }}">
 {% elsif site.og_description %}
