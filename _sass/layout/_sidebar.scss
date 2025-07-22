@@ -258,6 +258,8 @@
     font-size: $type-size-5;
     text-decoration: none;
 
+    outline: 1px solid green;
+
     &:hover {
       text-decoration: underline;
     }
