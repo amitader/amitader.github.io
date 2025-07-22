@@ -7,7 +7,7 @@
    ========================================================================== */
 
 .sidebar {
-   outline: 2px solid red;
+  padding-left: 1rem;
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
@@ -258,7 +258,6 @@
     font-size: $type-size-5;
     text-decoration: none;
 
-    outline: 1px solid green;
 
     &:hover {
       text-decoration: underline;
