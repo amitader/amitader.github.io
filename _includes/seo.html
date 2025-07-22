@@ -142,5 +142,10 @@
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% else %}
+  {% comment %} If no page-specific header image, use the default og_image from _config.yml {% endcomment %}
+  {% if site.og_image %}
+    <meta property="og:image" content="{{ site.url | append: site.baseurl | append: site.og_image }}">
+  {% endif %}
 {% endif %}
 <!-- end Open Graph protocol -->
