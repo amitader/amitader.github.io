@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include toc %}
+
  I am a Cybersecurity professional with hands-on experience in advanced threat detection, behavioral investigation,
  and automation-driven response. Proven ability to design high-fidelity detection logic, develop custom
  research tools, and lead investigations across enterprise environments. Passionate about uncovering
