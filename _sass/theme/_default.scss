@@ -18,6 +18,8 @@ $light-gray                 : #9ba1a6;
 
 $lighter-gray               : mix(#fff, $gray, 90%);
 
+$white                      : #E3FFF5;
+
 
 
 /* Color codes used for the site */
@@ -86,7 +88,7 @@ $sidebar-screen-min-width   : 1024px;
 
     --global-text-color                 : #{$dark-gray};
 
-    --global-text-color-light           : #{$light-gray};
+    --global-text-color-light           : #{$white};
 
     --global-thead-color                : #{$lighter-gray};
 

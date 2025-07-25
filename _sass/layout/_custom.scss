@@ -1,3 +1,31 @@
-.greedy-nav button {
-  display: none !important;
+// shrinkand font
+h1 {
+  font-family: "Shrikhand", serif; /* Replace 'Your Chosen Font' with the actual font name */
+  font-weight: 400; /* Use a weight you've imported, e.g., 700 for bold */
+  font-style: normal;
+}
+
+/* Apply custom font to sub-titles within content */
+.page__content {
+  h2, h3, h4, h5, h6 {
+    font-family: "Shrikhand", serif; /* Replace 'Your Chosen Font' */
+    // You might want different font-weights for different heading levels
+    // font-weight: 500;
+    font-style: normal;
+  }
+}
+
+// Black Mango font
+@font-face {
+  font-family: 'BlackMango'; /* Choose a unique name for your font */
+  src: url('{{ "/assets/fonts/black-mango-black.woff2" | relative_url }}') format('woff2'),
+       url('{{ "/assets/fonts/black-mango-black.woff" | relative_url }}') format('woff'),
+       url('{{ "/assets/fonts/black-mango-black.ttf" | relative_url }}') format('truetype');
+  font-weight: normal; /* Or the actual weight of this specific font file (e.g., 400, 700) */
+  font-style: normal;
+  font-display: swap; /* Tells the browser how to display text while the font is loading */
+}
+
+.page__content {
+  font-family: 'BlackMango' !important;
 }

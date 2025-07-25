@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% include toc %}
 
  I am a Cybersecurity professional with hands-on experience in advanced threat detection, behavioral investigation,
  and automation-driven response. Proven ability to design high-fidelity detection logic, develop custom
@@ -16,7 +15,7 @@ redirect_from:
  hidden threats through anomaly detection, log correlation, and proactive tool development
 
 
-## 🖥️ Experience
+## 🖥️ Experience  
 {% include entries-block.html items=site.data.experience %}
 
 

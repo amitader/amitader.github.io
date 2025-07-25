@@ -358,6 +358,7 @@
 }
 
 .nav__title {
+  background-color: var(--global-bg-color) !important;
   margin: 0;
   padding: 0.5rem 1rem;
   font-family: $sans-serif-narrow;
@@ -383,7 +384,7 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: var(--global-text-color-light);
+  color: var(--global-text-color);
   text-transform: uppercase;
   letter-spacing: 1px;
   background-color: #fff;

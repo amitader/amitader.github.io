@@ -16,15 +16,17 @@ $darker-gray                : mix(#000, $gray, 60%);
 
 $light-gray                 : mix(#fff, $gray, 50%);
 
+$light-green                : #0f6546;
 
 
-$background                 : #474747;
+
+$background                 : #06402B;
 
 $background-light           : mix(#fff, $background, 80%);
 
 $background-lighter         : mix(#fff, $background, 90%);
 
-$text                       : #ffffff;
+$text                       : #E3FFF5;
 
 $link                       : #0ea1c5;
 
@@ -86,11 +88,13 @@ html[data-theme="dark"] {
 
     --global-code-text-color            : #{$darker-gray};
 
+    --green-code-text-color            : #{$light-green};
+
     --global-fig-caption-color          : #{$light-gray};
 
     --global-link-color                 : #{$link};
 
-    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-hover           : #0f6546;
 
     --global-link-color-visited         : #{$link-light};
 
