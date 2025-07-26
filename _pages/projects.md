@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "🛠️ Projects"
+title: "Projects"
 permalink: /projects/
 collection: projects
 excerpt: "List all projects i have done"
