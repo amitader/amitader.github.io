@@ -15,19 +15,19 @@ redirect_from:
  hidden threats through anomaly detection, log correlation, and proactive tool development
 
 
-## 🖥️ Experience  
+## Experience  
 {% include entries-block.html items=site.data.experience %}
 
 
-## 🎓 Education
+## Education
 {% include entries-block.html items=site.data.education %}
 
-## 🛠️ Projects
+## Projects
 {% include dispaly-projects.html limit_count=2 %}
 
 <div class="btn-container">
   <a href="/projects/" class="btn">See all projects</a>
 </div>
 
-## 📜 certifications
+## certifications
 {% include entries-block.html items=site.data.certifications %}

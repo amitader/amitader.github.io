@@ -15,17 +15,8 @@ h1 {
   }
 }
 
-// Black Mango font
-@font-face {
-  font-family: 'BlackMango'; /* Choose a unique name for your font */
-  src: url('{{ "/assets/fonts/black-mango-black.woff2" | relative_url }}') format('woff2'),
-       url('{{ "/assets/fonts/black-mango-black.woff" | relative_url }}') format('woff'),
-       url('{{ "/assets/fonts/black-mango-black.ttf" | relative_url }}') format('truetype');
-  font-weight: normal; /* Or the actual weight of this specific font file (e.g., 400, 700) */
-  font-style: normal;
-  font-display: swap; /* Tells the browser how to display text while the font is loading */
-}
+
 
 .page__content {
-  font-family: 'BlackMango' !important;
+  font-family: 'Oranienbaum', $serif   !important;
 }
