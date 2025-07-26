@@ -76,20 +76,19 @@
 
 .entries-section .entries-item .skill-tag {
   display: inline-block;
-  background-color: #51A687;
-  border: 2px solid #F5F5F5;
+  background-color: #1a3c2b;
+  border: none;
   border-radius: 16px;
   padding: 4px 12px;
   font-size: 0.85rem;
-  color: #E0E0E0;
+  color: #f5f5dc;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
 .entries-section .entries-item .skill-tag:hover {
-  background-color: #E0E0E0;
-  color: #212121;
-  text-decoration: none;
+  background-color: #275d3e;
+
 }
 
 .external-link-icon {
