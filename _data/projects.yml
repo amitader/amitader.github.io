@@ -23,5 +23,5 @@
   title: "Chirp Web Server"
   role: "Lead Developer"
   description: "A fully functional RESTful web server"
-  image: "/images/projects/Chirp.png"
+  image: "/images/projects/chirp.png"
   github: "https://github.com/amitader/Web-Server"
