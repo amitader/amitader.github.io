@@ -17,4 +17,11 @@
   role: "Lead Developer"
   description: "Server running on an old PC"
   image: "/images/projects/server.png"
-  github: "https://github.com/amitader/Home-Server/blob/main/README.md"
+  github: "https://github.com/amitader/Home-Server"
+
+-
+  title: "Chirp Web Server"
+  role: "Lead Developer"
+  description: "A fully functional RESTful web server"
+  image: "/images/projects/Chirp.png"
+  github: "https://github.com/amitader/Web-Server"

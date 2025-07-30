@@ -23,7 +23,7 @@ redirect_from:
 {% include entries-block.html items=site.data.education %}
 
 ## Projects
-{% include dispaly-projects.html limit_count=2 %}
+{% include dispaly-projects.html limit_count=4 %}
 
 <div class="btn-container">
   <a href="/projects/" class="btn">See all projects</a>
