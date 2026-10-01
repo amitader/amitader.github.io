@@ -1,8 +1,23 @@
 -
-  dates: "Aug 2022 - Apr 2025"
-  title: "Threat detection Engineer"
-  company: "Israeli Military Intelligence"
-  description: " I designed and implemented sophisticated detection strategies and led security research efforts to defend against advanced threats. My work enhanced the overall defensive posture through continuous threat hunting and data-driven automation."
+  dates: "2025 - Present"
+  title: "Packing Specialist"
+  company: "MASACH"
+  location: "Modiin, Israel"
+  notes:
+    - "Packaged technology components used as part of motherboard-mounted defense products."
+    - "Focused on precision, technical product handling, operational quality, and reliability."
+-
+  dates: "2022 - 2025"
+  title: "Threat Detection Engineer"
+  company: "Unit Sapir, Israeli Military Intelligence"
+  location: "Israel"
+  notes:
+    - "Led end-to-end threat detection efforts, from initial research and hypothesis building to deployment of SPL-based detections in production environments."
+    - "Designed and refined detection logic for malware and advanced attack techniques, leading to improved signal quality and a measurable reduction in false positives."
+    - "Conducted in-depth security investigations using multi-source telemetry, correlating logs and behavioral data to identify root causes and attacker activity."
+    - "Took responsibility for incident analysis and escalation, operating under pressure in a mission-critical environment."
+    - "Led the implementation of Splunk SOAR use cases, developing and maintaining automated playbooks that improved response speed and analyst efficiency."
+    - "Developed Python and PowerShell scripts to analyze large volumes of security data, automate enrichment and support faster IOC identification and attribution."
   skills:
     - { name: "Python", link: "https://www.python.org/" }
     - { name: "Splunk", link: "https://www.splunk.com/" }
@@ -11,5 +26,3 @@
     - { name: "OSQuery SQL", link: "https://www.osquery.io/" }
     - { name: "Linux", link: "https://en.wikipedia.org/wiki/Linux" }
     - { name: "Wireshark", link: "https://www.wireshark.org/" }
-    # - { name: "", link: "" }
-    # - { name: "", link: "" }
