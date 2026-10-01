@@ -3,7 +3,7 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 collection: projects
-excerpt: "List all projects i have done"
+excerpt: "Projects by Amit Adler"
 ---
 
 {% include dispaly-projects.html %}

@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Amit's Homepage"
+title                    : "Amit Adler"
 title_separator          : "-"
 name                     : &name "Amit Adler"
-description              : &description "personal description"
+description              : &description "Amit Adler is a threat detection engineer working on detection engineering, threat hunting and security automation."
 url                      : "https://www.amitadler.com" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amitader/amitader.github.io"
@@ -23,7 +23,7 @@ repository               : "amitader/amitader.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Amit adler"
+  name             : "Amit Adler"
   pronouns         : # example: "she/her"  
   bio              : "Threat detection Engineer"
   location         : "Shoam, Israel"
@@ -139,13 +139,15 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  /images/profile.png 
-og_description           :  "Welcome to Amit Adler's personal website! Explore my projects, research and my professional experience"
+og_description           :  "Amit Adler is a threat detection engineer working on detection engineering, threat hunting and security automation."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/amitader"
+    - "https://www.linkedin.com/in/amit-adler12"
 
 
 # Analytics

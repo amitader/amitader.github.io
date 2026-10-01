@@ -131,7 +131,7 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
+      "logo": {{ site.url | append: site.baseurl | append: site.og_image | jsonify }}
     }
   </script>
 {% endif %}

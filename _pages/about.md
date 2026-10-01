@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Amit adler's website"
+excerpt: "Amit Adler is a threat detection engineer working on detection engineering, threat hunting and security automation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -29,5 +29,5 @@ redirect_from:
   <a href="/projects/" class="btn">See all projects</a>
 </div>
 
-## certifications
+## Certifications
 {% include entries-block.html items=site.data.certifications %}
